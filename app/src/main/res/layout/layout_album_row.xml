@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ImageView
+                    android:id="@+id/gridFolderImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"/>
+
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:visibility="visible"
+                    >
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/titleCountHolderLinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+
+                android:layout_marginBottom="10dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/countTextView"
+                    android:hint="0"
+                    android:shadowColor="#FFF"
+                    android:shadowRadius="7.0"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="end"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/titleTextView"
+                    android:hint="Whatsapp profile pictures"
+
+                    android:shadowColor="#FFF"
+                    android:shadowRadius="7.0"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="end"
+                    android:layout_alignStart="@+id/titleCountHolderLinearLayout"
+                    android:layout_alignTop="@+id/titleCountHolderLinearLayout"/>
+
+        </LinearLayout>
+            </RelativeLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

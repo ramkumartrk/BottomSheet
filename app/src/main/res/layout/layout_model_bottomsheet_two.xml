@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/bottomSheetTwoLinearLayout"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+
+              app:behavior_hideable="true"
+
+              app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            app:behavior_peekHeight="100dp"
+            android:layout_gravity="bottom"
+            >
+           <!--&gt;-->
+        <!--android:layout_height="250dp"-->
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Preview"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:textColor="#494949"
+
+            android:id="@+id/previewImageButton2"
+            android:padding="16dp"
+            android:drawableStart="@drawable/ic_preview"
+            android:textAlignment="textStart"
+            android:drawablePadding="32dp"
+
+            />
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Share"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:textColor="#494949"
+
+            android:id="@+id/shareImageButton2"
+            android:padding="16dp"
+            android:drawableStart="@drawable/ic_share"
+            android:textAlignment="textStart"
+            android:drawablePadding="32dp"
+
+            />
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Get a Link"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:textColor="#494949"
+
+            android:id="@+id/linkImageButton2"
+            android:padding="16dp"
+            android:drawableStart="@drawable/ic_link"
+            android:textAlignment="textStart"
+            android:drawablePadding="32dp"
+
+            />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Copy Content"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:textColor="#494949"
+
+            android:id="@+id/copyImageButton2"
+            android:padding="16dp"
+            android:drawableStart="@drawable/ic_copy"
+            android:textAlignment="textStart"
+            android:drawablePadding="32dp"
+
+            />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Email"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:textColor="#494949"
+
+            android:id="@+id/emailImageButton2"
+            android:padding="16dp"
+            android:drawableStart="@drawable/ic_email"
+            android:textAlignment="textStart"
+            android:drawablePadding="32dp"
+
+            />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:textColor="#494949"
+
+            android:id="@+id/deleteImageButton2"
+            android:padding="16dp"
+            android:drawableStart="@drawable/ic_delete"
+            android:textAlignment="textStart"
+            android:drawablePadding="32dp"
+
+            />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Camera"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:textColor="#494949"
+
+            android:id="@+id/cameraImageButton2"
+            android:padding="16dp"
+            android:drawableStart="@drawable/ic_camera"
+            android:textAlignment="textStart"
+            android:drawablePadding="32dp"
+
+            />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Contact"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:textColor="#494949"
+
+            android:id="@+id/contactImageButton2"
+            android:padding="16dp"
+            android:drawableStart="@drawable/ic_contact"
+            android:textAlignment="textStart"
+            android:drawablePadding="32dp"
+
+            />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:textColor="#494949"
+
+            android:id="@+id/locationImageButton2"
+            android:padding="16dp"
+            android:drawableStart="@drawable/ic_location"
+            android:textAlignment="textStart"
+            android:drawablePadding="32dp"
+
+            />
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="Camera"
+                    android:textAllCaps="false"
+                    android:textSize="16dp"
+                    android:textColor="#494949"
+
+                    android:id="@+id/cameraImageButton2_extra"
+                    android:padding="16dp"
+                    android:drawableStart="@drawable/ic_camera"
+                    android:textAlignment="textStart"
+                    android:drawablePadding="32dp"
+
+                    />
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="Contact"
+                    android:textAllCaps="false"
+                    android:textSize="16dp"
+                    android:textColor="#494949"
+
+                    android:id="@+id/contactImageButton2_extra"
+                    android:padding="16dp"
+                    android:drawableStart="@drawable/ic_contact"
+                    android:textAlignment="textStart"
+                    android:drawablePadding="32dp"
+
+                    />
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="Delete"
+                    android:textAllCaps="false"
+                    android:textSize="16dp"
+                    android:textColor="#494949"
+
+                    android:id="@+id/locationImageButton2_extra"
+                    android:padding="16dp"
+                    android:drawableStart="@drawable/ic_location"
+                    android:textAlignment="textStart"
+                    android:drawablePadding="32dp"
+
+                    />
+
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
